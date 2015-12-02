@@ -1,0 +1,6 @@
+*{margin:0; padding:0;}
+body{background:url(../img/login_back1.png) no-repeat;}
+#login_con{width:450px; height:300px;margin:180px auto;border:0px #000 solid;background:url(../img/login_table_back.png);}
+.input{width:250px; height:40px;font-size:25px; }
+#submit{width:250px; height:30px; background:url(../img/login_button.png); border:#F60 1px solid; text-align:center;
+ }

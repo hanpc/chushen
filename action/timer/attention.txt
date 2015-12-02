@@ -1,0 +1,4 @@
+rank_week
+rank_season
+
+两个表只允许修改、查找  不允许增加、删除

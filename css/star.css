@@ -1,0 +1,7 @@
+*{padding:0px; margin:0px;}
+#star{width:120px; height:25px; border:#000 1px solid; position:relative;margin:20px auto; border-left:0px; z-index:1;}
+#star #ruler{position:absolute;left:0px;top:0px;z-index:3;}
+#star #ruler li{width:11px; height:25px;border-left:#000 1px solid; list-style:none; float:left;}
+#star #key{width:0px; background:#CCC;height:25px;positoin:absolute; left:0px; top:0px;}
+
+#scoreshow{width:160px; height:25px;position:relative;top:-22px;left:123px; }

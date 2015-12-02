@@ -1,0 +1,10 @@
+*{padding:0px; margin:0px;}
+#table{width:340px; height:400px; border-left:#ccc solid 1px;}
+#table #title{width:340px;height:30px;}
+#table a{position:absolute;top:10px; left:280px; text-decoration:none;}
+#table span{position:absolute;top:10px; left:20px;color:#09C;}
+#table #show{border:1px solid #999;width:340px;height:350px;border:red 0px solid;position:absolute; left:0px; top:40px;padding-left:20px;}
+#table #show ul li{width:100px; height:120px;margin-left:10px; float:left; list-style:none;position:relative;}
+#table #show ul li img{width:80px;height:80px;border:#666 1px solid;}
+#table #show ul li span{position:absolute; top:75px; left:10px; color:#333;}
+.user p{padding-left:10px;}

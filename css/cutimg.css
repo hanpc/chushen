@@ -1,0 +1,16 @@
+*{margin:0px;padding:0px;}
+a{behavior:url(/script/blur.htc);}
+ 
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;font-size:1px; width:1px; height:0px; visibility:hidden;}
+.hidden {display:none;}
+.display{display:none;}
+.unLine,.unLine a{text-decoration:none;}
+.noBorder{border:none;}
+select{border:1px solid #6699CC;font:12px Arial,Helvetica,sans-serif;line-height:20px;}
+#opic{width:300px;}
+#main_frame{width:680px; height:350px;position:relative;margin:0 auto; overflow:hidden;}
+#big_img{position:absolute;top:3px; left:10px; width:500px;}
+#small_img{position:absolute;left:400px;top:2px; width:760px;}
+#cropper{position:absolute;left:400px; top:180px;width:80px; height:30px;}

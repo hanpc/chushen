@@ -1,0 +1,18 @@
+*{padding:0; margin:0;}
+body{background:url(../img/back.png);}
+#maintable{width:1000px; height:98px; margin:0 auto;}
+#maintable #head td p{width:1000px; height:100px;margin:0 auto; background:url(../img/head.png) repeat-x;}
+#maintable #message{width:1000px;}
+#maintable #message td ul {width:800px; margin:0 auto;}
+#maintable #message td ul li {float:left; list-style:none; margin:0 auto; position:relative;}
+#maintable #message td ul #usermessage{position:relative; left:250px;}
+
+#dh{width:998px; height:40px; background:url(../img/list2.jpg) repeat-x; margin:0 auto;float:left;}
+#dh .list{width:94px; height:25px; text-align:center; border-left:1px #FFFFFF solid;border-right:1px solid #FFF;float:left; padding:9px; color:#FFF;position:relative;}
+#lk{width:112px; height:40px;position:relative; left:884px;}
+#link{width:112px;height:38px; text-align:center; color:#FFF;z-index:3;}
+
+#link img{position:absolute; left:10px; top:2px;z-index:3;}
+#list_show{width:600px; height:400px; position:absolute;  border:#F90 solid 1px;left:-499px; top:40px;z-index:2; padding:5px;display:none;background:#FFF;}
+#list_show ul li{list-style:none;width:49px; height:23px;float:left;text-align:end;}
+#list_show ul li a{ text-decoration:none;}

@@ -1,0 +1,15 @@
+*{padding:0px; margin:0px;}
+#user_main{width:1000px; height:40px; border:#F60 0px solid;}
+#user_main img{height:40px;}
+#link{position:absolute;left:200px; top:15px;}
+#link ul li{color:#F30;font-size:10px;list-style:none;float:left;}
+.line{width:0px;height:13px; border-left:solid 1px red;margin-left:8px;margin-right:8px;}
+#link ul li a{color:#F30; text-decoration:none;}
+#link ul li a:hover{ text-decoration:underline;}
+#message{position:absolute;top:14px; left:700px;}
+strong{color:#F30;}
+#message #ul{position:absolute; left:150px;top:0px;width:200px; height:15px;}
+#message ul li{list-style:none;float:left;}
+#message ul li a{color:#069; text-decoration:none;}
+#message ul li a:hover{ text-decoration:underline;}
+#message ul  .line{height:15px; border-left:#666 1px solid;}

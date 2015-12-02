@@ -1,0 +1,43 @@
+*{margin:0px; padding:0px;}
+#main{width:257px; height:410px; border: #F90 1px solid; position:relative;}
+#main #link{height:25px; width:238px; float:left;}
+#main #link p{width:60px; height:25px; border:#F60 0px solid; float:right;font-size:8px;margin-top:0px; background:#999; margin-right:9px; color:#fff; text-align:center; padding-top:4px;}
+#main #link .checked{background:#F90;}
+
+#main #week{width:257px; height:349px; border:1px #999 solid;position:absolute; top:60px; left:-1px;border-top:#999 1px solid;}
+
+#main #week ul li{width:256px;height:30px; border-bottom:#666 1px solid; list-style:none;position:relative;}
+#main #week ul .selected{height:70px;}
+#main #week ul li .small{width:256px; height:30px;position:absolute;top:0px; left:0px;}
+#main #week ul li .big{width:256px; height:70px; display:none;position:absolute;top:0px; left:0px;}
+
+#main #week ul li .small img{width:20px;height:20px;position:absolute; left:3px; top:3px;}
+#main #week ul li .small .name{position:absolute; left:25px; top:3px;color:#69C;}
+#main #week ul li .small .author{position:absolute; left:115px; top:3px;}
+#main #week ul li .small .clicknum{position:absolute; left:210px; top:3px;}
+
+#main #week ul .selected .small{width:256px; height:30px;display:none;}
+#main #week ul .selected .big{width:256px; height:70px;display:block;}
+#main #week ul .selected .big img{width:67px; height:67px;}
+#main #week ul .selected .big .b_name{position:absolute;left:90px;top:6px;color:#69C;}
+#main #week ul .selected .big .b_author{position:absolute;left:90px;top:28px;}
+#main #week ul .selected .big .b_clicknum{position:absolute;left:90px;top:50px;}
+/*----------------------------------------------------------------------------------------*/
+#main #season{width:257px; height:349px; border:1px #999 solid;position:absolute; top:60px; left:-1px;border-top:#999 1px solid; display:none;}
+
+#main #season ul li{width:256px;height:30px; border-bottom:#666 1px solid; list-style:none;position:relative;}
+#main #season ul .selected{height:70px;}
+#main #season ul li .small{width:256px; height:30px;position:absolute;top:0px; left:0px;}
+#main #season ul li .big{width:256px; height:70px; display:none;position:absolute;top:0px; left:0px;}
+
+#main #season ul li .small img{width:20px;height:20px;position:absolute; left:3px; top:3px;}
+#main #season ul li .small .name{position:absolute; left:25px; top:3px;color:#69C;}
+#main #season ul li .small .author{position:absolute; left:115px; top:3px;}
+#main #season ul li .small .clicknum{position:absolute; left:210px; top:3px;}
+
+#main #season ul .selected .small{width:256px; height:30px;display:none;}
+#main #season ul .selected .big{width:256px; height:70px;display:block;}
+#main #season ul .selected .big img{width:67px; height:67px;}
+#main #season ul .selected .big .b_name{position:absolute;left:90px;top:6px;color:#69C;}
+#main #season ul .selected .big .b_author{position:absolute;left:90px;top:28px;}
+#main #season ul .selected .big .b_clicknum{position:absolute;left:90px;top:50px;}

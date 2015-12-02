@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>注册</title>
+<link href="./css/regist.css" rel="stylesheet"/>
+<script src="lib/jquery.js"></script>
+<script src="lib/jquery.validate.js"></script>
+<script src="lib/jquery.metadata.js"></script>
+<script src="lib/jquery.form.js"></script>
+<script src="lib/regist.js"></script>
+</head>
+
+<body>
+<div id="main">
+	<table>
+    	<tr>
+        	<td><img id="title" src="./img/zhuce_title.png"></td>
+        </tr>
+        <tr>
+        	<td > 
+            	<div id="message">
+				<p id="message_show"><font size="+2">注册须知：</font><br><br>
+                		<font size="2">
+&nbsp;&nbsp;&nbsp;1、在本站注册的会员，必须遵守《互联网电子公告服务管理规定》，不得在本站发表诽谤他人，侵犯他人隐私，侵犯他人知识产权，传播病毒，政治言论，商业讯息等信息。</br></br>
+&nbsp;&nbsp;&nbsp;2、在所有在本站发表的文章，本站都具有最终编辑权，并且保留用于印刷或向第三方发表的权利，如果你的资料不齐全，我们将有权不作任何通知使用你在本站发布的作品。
+						</font>
+                </p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+        	<td>
+            	<div id="regist_table">
+                <div id="logo">
+                	<img src="img/logo.png" />
+                </div>
+                <br><br>
+                <form action="./action/regist.php" method="post" id="regist_form">
+                	<table>
+                    	<tr>
+                        	<td>
+                            	昵称：
+                            </td>
+                            <td>
+                            	<input type="text" name="username" id="username" >
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>
+                            	密码：
+                            </td>
+                            <td>
+                            	<input type="password" name="password" id="password"   >
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>
+                            	再输一次：
+                            </td>
+                            <td>
+                            	<input type="password" name="repassword" id="repassword" ><em id="error_rep"></em>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>
+                            	性别:
+                            </td>
+                            <td>
+                            	男<input type="radio" name="sex" value="男" class="input_sex" checked="checked" >&nbsp;&nbsp;
+                                女<input type="radio" name="sex" value="女"  class="input_sex" >
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>
+                            	邮箱：
+                            </td>
+                            <td>
+                            	<input type="text" name="mail" id="mail">
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td>
+                            	验证码：
+                            </td>
+                            <td>
+                            	<input type="text" name="checkcode" id="checkcode"}}}">
+                              
+                                <img src="./action/code_char.php" id="imgcode"><em id="error_chk"></em>
+                            </td>
+                        </tr>
+                    </table>
+                    <p id="reset">
+                    	重置
+                    </p>
+                    <p id="submit">
+                    	确认注册
+                    </p>
+                    
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

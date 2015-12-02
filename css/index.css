@@ -1,0 +1,53 @@
+*{padding:0; margin:0;}
+body{background:url(../img/back.png);}
+
+#body{margin:0 auto;position:relative; border:0px #FF0000 solid;}
+#maintable{width:1000px; height:98px; margin:0 auto;background:#FFF;}
+#maintable #head  p{width:1000px; height:100px;margin:0 auto; background:url(../img/newtitle1.png) no-repeat; }
+#maintable #message{width:1000px;}
+#maintable #message  ul {width:800px; margin:0 auto;}
+#maintable #message  ul li {float:left; list-style:none; margin:0 auto; position:relative;}
+#maintable #message  ul #usermessage{position:relative; left:250px;}
+
+#dh{width:998px; height:40px; background:url(../img/list2.jpg) repeat-x; margin:0 auto;float:left;}
+#dh .list{width:94px; height:25px; text-align:center; border-left:1px #FFFFFF solid;border-right:1px solid #FFF;float:left; padding:9px; color:#FFF;position:relative;}
+#lk{width:112px; height:40px;position:relative; left:884px;top:-35px;}
+#link{width:112px;height:38px; text-align:center; color:#FFF;z-index:3;}
+
+#link img{position:absolute; left:10px; top:2px;z-index:3;}
+#list_show{width:600px; height:400px; position:absolute;  border:#F90 solid 1px;left:-499px; top:40px;z-index:2; padding:5px;display:none;background:#FFF;}
+#list_show ul li{list-style:none;width:49px; height:23px;float:left;text-align:end;}
+#list_show ul li a{ text-decoration:none;}
+
+#newmenu{position:absolute; top:80px; width:312px; left:0px; border:1px  #FF3300 solid; height:416px; }
+#newmenu #title{height:25px; border-bottom:solid 1px #000; padding-top:5px;background:#F90;}
+#newmenu #title a{position:absolute; left:240px; text-decoration:none;}
+#newmenu ul li{list-style:none;height:96px;}
+#newmenu ul li .new_container{width:310px; height:80px;  position:relative; left:0px;top:2px;}
+#newmenu ul li .new_container img{width:76px;height:76px;border:1px #ccc solid;position:relative; left:2px; top:2px;}
+#newmenu ul li .new_container p{width:215px; height:76px; position:absolute; left:90px; top:13px;  }
+#newmenu ul li .new_container p span{float:left; width:200px; height:20px;}
+#newmenu hr{ width:200; border:1px dashed #666; height:0px;font-size:9px;}
+
+#recommend{position:absolute; left:322px; width:402px; top:80px; height:415px; border:#fff 1px solid; }
+#ranklist{position:absolute; left:736px; width:261px; top:80px; height:414px; border:#fff 1px solid; }
+/*搜索栏*/
+#search{width:270px; height:37px; position:relative; left:20px;  border:#000 0px solid; overflow:hidden;}
+#search #keyword{width:180px;height:32px;position:absolute;top:3px; left:0px; font-size:18px;}
+#search #search_botton{position:absolute;top:4px; left:185px;height:35px; }
+
+
+/*----------------------------------------------------------------------------------------*/
+
+#second{position:absolute;width:1000px; height:500px; border:0px #000000 solid;left:175px;top:610px;}
+
+#second #advertisement{width:640px; height:120px; border:#666 0px solid;}
+#second #advertisement img{width:640px; height:120px;}
+
+#second #super{width:340px; height:400px;position:absolute; top:0px; left:650px;border:0px solid #999; overflow:hidden;}
+
+#second #tip_daily{width:640px; height:275px; position:absolute; left:0px; top:130px; border-left:1px solid #ccc;}
+#bottom_line{ align:center; width:1000px;  SIZE:7; position:absolute; left:0px; top:420px;>
+}
+#right{ position:absolute; left:240px; top:430px; color:#666;font-size:18px;}
+

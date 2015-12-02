@@ -1,0 +1,5 @@
+<?php
+/*
+*Ã¿ÔÂ²ËÅÅÐÐ 10 month_click avg_score  ('Y-m')
+*/
+?>

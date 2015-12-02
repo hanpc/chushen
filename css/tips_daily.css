@@ -1,0 +1,10 @@
+*{padding:0px; margin:0px;}
+#tips_main{width:630px; height:260px; border:red 0px solid;}
+#tip_left{width:300px; height:260px; position:absolute;left:10px;top:0px; border:#999 0px solid;background:#eee;}
+#tip_right{width:300px; height:260px; position:absolute;left:340px;top:0px; border:#999 0px solid;background:#eee;}
+
+img{width:300px; height:140px;}
+a{ text-decoration:none;font-size:18px; color:#000;}
+a:hover{color:red;}
+.title{position:absolute;top:150px;left:30px;}
+.short_info{color:#555;position:absolute; top:179px; overflow:hidden;}

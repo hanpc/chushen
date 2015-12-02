@@ -1,0 +1,31 @@
+FOUR RECTANGLES
+$image = imagecreatefromjpeg($filename);
+
+//imagecopyresampled(dst_image, src_image, dst_x, dst_y, src_x, src_y, dst_w, dst_h, src_w, src_h)
+imagecopyresampled
+
+                  $src_image                                   $dst_image
++------------+---------------------------------+   +------------+--------------------+
+|            |                                 |   |            |                    |
+|            |                                 |   |         $dst_y                  |
+|            |                                 |   |            |                    |
+|         $src_y                               |   +-- $dst_x --+----$dst_width----+ |
+|            |                                 |   |            |                  | |
+|            |                                 |   |            |    Resampled     | |
+|            |                                 |   |            |                  | |
++-- $src_x --+------ $src_width ------+        |   |       $dst_height             | |
+|            |                        |        |   |            |                  | |
+|            |                        |        |   |            |                  | |
+|            |                        |        |   |            |                  | |
+|            |                        |        |   |            +------------------+ |
+|            |        Sample          |        |   |                                 |
+|            |                        |        |   |                                 |
+|            |                        |        |   |                                 |
+|       $src_height                   |        |   |                                 |
+|            |                        |        |   +---------------------------------+
+|            |                        |        |
+|            |                        |        |
+|            +------------------------+        |
+|                                              |
+|                                              |
++----------------------------------------------+

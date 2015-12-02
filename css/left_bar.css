@@ -1,0 +1,26 @@
+*{padding:0px;margin:0px; }
+#lk{width:112px; height:40px;position:relative;}
+#list_show{width:600px; height:380px; position:absolute;  border:#F90 solid 1px;z-index:2; padding:5px;background:#FFF;}
+#list_show ul li{list-style:none;width:49px; height:23px;float:left;text-align:end;}
+#list_show ul li a{ text-decoration:none; }
+
+/*
+////本框架被引入时的html
+<div id="left_bar">
+<iframe src="./left_bar.html" width="612px" height="392px" frameborder="0" scrolling="no">
+</iframe>
+<p><img src="./img/fastmenu.png" />
+</p>
+</div>
+
+////本框架被引入时的css
+*{margin:0; padding:0;}
+#left_bar{position:fixed;left:-612px; }
+#left_bar p{position:absolute;left:612px;top:130px;}
+
+////本框架被引入时的js
+1.<script src="./lib/jquery.js"></script>
+2.
+
+
+*/
